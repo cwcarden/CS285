@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		609C915B17DA41D1972F2FC5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E9F760B4A8AB477AB63FCFDA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C215BE29B3022F0C7BBA87C7 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				58A23640050443FD82569068 /* PBXTargetDependency */,
+				9A1CDBFEE49C41CEA32E7BB9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BED7B447224446AD98E1C327 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D5A02309788640F7B0B2EE03 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A2F36D239FC5D1D86AF60B8F /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		72F5BB2D60334BCC8777E324 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.h */ = {isa = PBXBuildFile; fileRef = 19D0363B629A48CB87677866 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.h */; };
+		798F9684632446E8BD93CC3F /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/main.cpp */ = {isa = PBXBuildFile; fileRef = BA4EE51BBB264FBCA78376FA /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/main.cpp */; };
+		7CCB5F85C42B4CDBB2B23DA4 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.cpp */ = {isa = PBXBuildFile; fileRef = 297D62EE841B4C4B91105926 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.cpp */; };
+		E411B79101354CFEA02F3174 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7F66EA60CF5249B3A9B87162 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		254D06E3BEAE4CE18451A354 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		3454C6C9462344419390A655 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		4CD56E6686EB44229E053EBE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EA2225EA73684775AAC9EE32 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		7100D236FE4147A9837CF91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6536E304040742B6B514D9E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D783CFD97B604328B623DA1F;
+			remoteInfo = bankAcount;
+		};
+		997D842C47CF43BAB3B19C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6536E304040742B6B514D9E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED7B447224446AD98E1C327;
+			remoteInfo = ZERO_CHECK;
+		};
+		F427ED72E85C41BB80B3D605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6536E304040742B6B514D9E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BED7B447224446AD98E1C327;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D0363B629A48CB87677866 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bankAccount.h; path = bankAccount.h; sourceTree = SOURCE_ROOT; };
+		297D62EE841B4C4B91105926 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bankAccount.cpp; path = bankAccount.cpp; sourceTree = SOURCE_ROOT; };
+		7F66EA60CF5249B3A9B87162 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BA4EE51BBB264FBCA78376FA /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		D81A6B0320AD4100AAD6D1A2 /* bankAcount */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = bankAcount; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B3750984FA4E67BEF7AD0F /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C23655F4C3E4FC0A25F6AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FFEFB10A1644519ACE0EA6 /* bankAcount */ = {
+			isa = PBXGroup;
+			children = (
+				CB3D8D3CB222455BAB426870 /* Source Files */,
+				BC5EFF04385841BAA1BC8C7C /* Header Files */,
+				7F66EA60CF5249B3A9B87162 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/CMakeLists.txt */,
+			);
+			name = bankAcount;
+			sourceTree = "<group>";
+		};
+		4BDF04CAF1B344DCB6015874 = {
+			isa = PBXGroup;
+			children = (
+				18FFEFB10A1644519ACE0EA6 /* bankAcount */,
+				DCB9ED744F174D29BCF4A017 /* ALL_BUILD */,
+				B405BA8D53FF409389CD3F0E /* Products */,
+				AC401C0F1CA2416AAA87BDC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D91A9F14B8941C0AC658701 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AC401C0F1CA2416AAA87BDC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B405BA8D53FF409389CD3F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81A6B0320AD4100AAD6D1A2 /* bankAcount */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC5EFF04385841BAA1BC8C7C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				19D0363B629A48CB87677866 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CB3D8D3CB222455BAB426870 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				297D62EE841B4C4B91105926 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.cpp */,
+				BA4EE51BBB264FBCA78376FA /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DCB9ED744F174D29BCF4A017 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9D91A9F14B8941C0AC658701 /* CMake Rules */,
+				F4B3750984FA4E67BEF7AD0F /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D783CFD97B604328B623DA1F /* bankAcount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61BE650606DE4D81BC4CE691 /* Build configuration list for PBXNativeTarget "bankAcount" */;
+			buildPhases = (
+				D62C898EBE404020B1B02CB1 /* Sources */,
+				1C23655F4C3E4FC0A25F6AB8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3626941DB6D64BE3BDC15A96 /* PBXTargetDependency */,
+			);
+			name = bankAcount;
+			productName = bankAcount;
+			productReference = D81A6B0320AD4100AAD6D1A2 /* bankAcount */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6536E304040742B6B514D9E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1400;
+			};
+			buildConfigurationList = A68592780EFF47399682F02D /* Build configuration list for PBXProject "bankAcount" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4CD56E6686EB44229E053EBE /* Debug */,
+				EA2225EA73684775AAC9EE32 /* Release */,
+				3454C6C9462344419390A655 /* MinSizeRel */,
+				254D06E3BEAE4CE18451A354 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4BDF04CAF1B344DCB6015874;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				609C915B17DA41D1972F2FC5 /* ALL_BUILD */,
+				BED7B447224446AD98E1C327 /* ZERO_CHECK */,
+				D783CFD97B604328B623DA1F /* bankAcount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A2F36D239FC5D1D86AF60B8F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug\"
+  make -f /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285\\ Advanced\\ C++/week1/bankAcount/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug\"
+  make -f /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285\\ Advanced\\ C++/week1/bankAcount/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug\"
+  make -f /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285\\ Advanced\\ C++/week1/bankAcount/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug\"
+  make -f /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285\\ Advanced\\ C++/week1/bankAcount/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		C215BE29B3022F0C7BBA87C7 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D62C898EBE404020B1B02CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCB5F85C42B4CDBB2B23DA4 /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/bankAccount.cpp */,
+				798F9684632446E8BD93CC3F /* /Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3626941DB6D64BE3BDC15A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED7B447224446AD98E1C327 /* ZERO_CHECK */;
+			targetProxy = F427ED72E85C41BB80B3D605 /* PBXContainerItemProxy */;
+		};
+		58A23640050443FD82569068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BED7B447224446AD98E1C327 /* ZERO_CHECK */;
+			targetProxy = 997D842C47CF43BAB3B19C47 /* PBXContainerItemProxy */;
+		};
+		9A1CDBFEE49C41CEA32E7BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D783CFD97B604328B623DA1F /* bankAcount */;
+			targetProxy = 7100D236FE4147A9837CF91B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E4DA3B9F1A49AE938796CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		07D70D0F4131479F8F93DC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = ("-L/opt/homebrew/opt/python@3.10/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bankAcount;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		087EC8C4071246CB8FFC1A08 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1B8C8FAB04C344ED97AA290F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = ("-L/opt/homebrew/opt/python@3.10/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bankAcount;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4590733F71DB477988E75828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4B0D8325E2534904A2358D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug/build";
+			};
+			name = Debug;
+		};
+		65F456EF98BB47C0916DB359 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7BD863C82068448CA23BEB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9C7DD2E48CC148E18A5AD4FB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A26EE7EAB157460EBBB5866A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug/build";
+			};
+			name = MinSizeRel;
+		};
+		B23E77226EC04722BEE154A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CCF4FF7FB936444CB5D9542F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug/build";
+			};
+			name = Release;
+		};
+		D9709659A41E4023903C0922 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DBC1061F59774355951C0901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++2a' ";
+				OTHER_LDFLAGS = ("-L/opt/homebrew/opt/python@3.10/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bankAcount;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DBDA8EE32C5A4AC09F7CE07D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ED1F353D023B4D409D0C06CD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = ("-L/opt/homebrew/opt/python@3.10/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bankAcount;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/charles/Library/CloudStorage/OneDrive-Personal/Documents/University/CS285 Advanced C++/week1/bankAcount/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61BE650606DE4D81BC4CE691 /* Build configuration list for PBXNativeTarget "bankAcount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC1061F59774355951C0901 /* Debug */,
+				07D70D0F4131479F8F93DC29 /* Release */,
+				ED1F353D023B4D409D0C06CD /* MinSizeRel */,
+				1B8C8FAB04C344ED97AA290F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A68592780EFF47399682F02D /* Build configuration list for PBXProject "bankAcount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0D8325E2534904A2358D5C /* Debug */,
+				CCF4FF7FB936444CB5D9542F /* Release */,
+				A26EE7EAB157460EBBB5866A /* MinSizeRel */,
+				9C7DD2E48CC148E18A5AD4FB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5A02309788640F7B0B2EE03 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E4DA3B9F1A49AE938796CA /* Debug */,
+				4590733F71DB477988E75828 /* Release */,
+				087EC8C4071246CB8FFC1A08 /* MinSizeRel */,
+				D9709659A41E4023903C0922 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9F760B4A8AB477AB63FCFDA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B23E77226EC04722BEE154A3 /* Debug */,
+				7BD863C82068448CA23BEB6E /* Release */,
+				DBDA8EE32C5A4AC09F7CE07D /* MinSizeRel */,
+				65F456EF98BB47C0916DB359 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6536E304040742B6B514D9E4 /* Project object */;
+}
